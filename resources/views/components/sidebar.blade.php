@@ -10,33 +10,37 @@
         </li>
         <li>
             <a href="{{ route('finance.dashboard') }}" class="flex items-center p-2 hover:bg-gray-700">
-            <img src="{{ asset('images/dashboard-icon.png') }}" alt="Dashboard" class="w-6 h-6 mr-2">
-             <span class="ml-3">Dashboard Financeiro</span>
+                <img src="{{ asset('images/dashboard-icon.png') }}" alt="Dashboard" class="w-6 h-6 mr-2">
+                <span class="ml-3">Dashboard Financeiro</span>
             </a>
         </li>
         <li>
-        <a href="{{ route('financas.transacoes.index') }}" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
-            <img src="{{ asset('images/transactions-icon.png') }}" alt="Dashboard" class="w-6 h-6 mr-2">
+            <a href="{{ route('financas.transacoes.index') }}" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                <img src="{{ asset('images/transactions-icon.png') }}" alt="Dashboard" class="w-6 h-6 mr-2">
                 <span class="ml-3">Transações</span>
             </a>
         </li>
         <li>
-            <a href="{{ route('finance.relatorios') }}" class="flex items-center p-2 hover:bg-gray-700">
+            <a href="{{ route('finance.relatorios') }}" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                <img src="{{ asset('images/relatorio-icon.png') }}" alt="Dashboard" class="w-6 h-6 mr-2">
                 <span class="ml-3">Relatórios</span>
             </a>
         </li>
         <li>
-            <a href="{{ route('finance.orcamentos') }}" class="flex items-center p-2 hover:bg-gray-700">
+            <a href="{{ route('finance.orcamentos') }}" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                <img src="{{ asset('images/W64-orcamento-icon.png') }}" alt="Dashboard" class="w-6 h-6 mr-2">
                 <span class="ml-3">Orçamentos</span>
             </a>
         </li>
         <li>
-            <a href="{{ route('finance.dividas') }}" class="flex items-center p-2 hover:bg-gray-700">
+            <a href="{{ route('finance.dividas') }}" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+            <img src="{{ asset('images/W50-dividas-icon.png') }}" alt="Dashboard" class="w-6 h-6 mr-2">
                 <span class="ml-3">Dívidas</span>
             </a>
         </li>
         <li>
-            <a href="{{ route('finance.config') }}" class="flex items-center p-2 hover:bg-gray-700">
+            <a href="{{ route('finance.config') }}" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+            <img src="{{ asset('images/W500-configuracoes-icon.png') }}" alt="Dashboard" class="w-6 h-6 mr-2">
                 <span class="ml-3">Configurações</span>
             </a>
         </li>
